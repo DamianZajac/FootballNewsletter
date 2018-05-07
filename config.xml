@@ -17,11 +17,11 @@
 	<plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
 	    
 	<platform name="android">
-		<allow-intent href="market:*" />
-		<icon src="/res/mipmap-mdpi/ic_launcher.png" density="mdpi" />
-		<icon src="/res/mipmap-xhdpi/ic_launcher.png" density="hdpi" />
-		<icon src="/res/mipmap-xxhdpi/ic_launcher.png" density="xhdpi" />
-		<icon src="/res/mipmap-xxxhdpi/ic_launcher.png" density="xxhdpi" />
+		<icon src="/res/mipmap-mdpi/ic_launcher.png" platform="android" width="48" height="48" density="mdpi" />
+		<icon src="/res/mipmap-hdpi/ic_launcher.png" platform="android" width="72" height="72" density="hdpi" />
+		<icon src="/res/mipmap-xhdpi/ic_launcher.png" platform="android" width="96" height="96" density="xhdpi" />
+		<icon src="/res/mipmap-xxhdpi/ic_launcher.png" platform="android" width="144" height="144" density="xxhdpi" />
+		<icon src="/res/mipmap-xxxhdpi/ic_launcher.png" platform="android" width="192" height="192" density="xxhdpi" />
     	</platform>
 
 	<universal-links>
