@@ -17,11 +17,11 @@
             xxhdpi  : 144x144 px
             xxxhdpi : 192x192 px
         -->
-        <icon src="res/mipmap-hdpi/ic_launcher.png" density="ldpi" />
-        <icon src="res/mipmap-mdpi/ic_launcher.png" density="mdpi" />
-        <icon src="res/mipmap-xhdpi/ic_launcher.png" density="hdpi" />
-        <icon src="res/mipmap-xxhdpi/ic_launcher.png" density="xhdpi" />
-        <icon src="res/mipmap-xxxhdpi/ic_launcher.png" density="xxhdpi" />
+        <icon src="/res/mipmap-hdpi/ic_launcher.png" density="ldpi" />
+        <icon src="/res/mipmap-mdpi/ic_launcher.png" density="mdpi" />
+        <icon src="/res/mipmap-xhdpi/ic_launcher.png" density="hdpi" />
+        <icon src="/res/mipmap-xxhdpi/ic_launcher.png" density="xhdpi" />
+        <icon src="/res/mipmap-xxxhdpi/ic_launcher.png" density="xxhdpi" />
     	</platform>
 
 	<plugin name="cordova-plugin-firebase" spec="1.0.0" />
